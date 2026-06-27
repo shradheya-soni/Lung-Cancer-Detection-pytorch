@@ -1,0 +1,58 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Bytecode
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+.vs/
+
+# TensorBoard
+runs/
+
+# Cache
+cache/
+
+# PyTorch checkpoints
+*.state
+*.pth
+*.pt
+*.ckpt
+
+# Dataset
+subset*/
+seg-lungs-LUNA16/
+candidates_V2/
+data-unversioned/
+
+# Personal files
+*.pdf
+*.jpg
+*.jpeg
+*.png
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Python cache everywhere
+**/__pycache__/
+
+# Compiled python everywhere
+**/*.pyc
